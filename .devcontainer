@@ -1,0 +1,15 @@
+{
+  "name": "Octave (MATLAB-compatible) Devcontainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "matlab.matlab"
+      ]
+    }
+  },
+  "features": {},
+  "postCreateCommand": "octave --version || true"
+}
