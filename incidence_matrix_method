@@ -1,0 +1,3 @@
+function I = incidence_matrix_method(R1, R2, E)
+I = E/(R1+R2);
+end
